@@ -1,6 +1,8 @@
 package edu.collin.cosc2436.ThanhTran.cashRegisterUpdated;
 
 import java.util.HashMap;
+import java.util.Map;
+
 import edu.collin.cosc2436.ThanhTran.SupermarketPromotions.RetailItemType;
 import edu.collin.cosc2436.ThanhTran.SupermarketPromotions.RetailItem;
 
@@ -10,7 +12,7 @@ import edu.collin.cosc2436.ThanhTran.SupermarketPromotions.RetailItem;
  */
 public class RetailItemLookup {
     private final double taxRate;
-    private final HashMap<RetailItemType,PricingCategory> categoryItemList;
+    private final Map<RetailItemType,PricingCategory> categoryItemList;
 
     /**
      * Constructor for RetailItemLookup class

@@ -1,12 +1,14 @@
 package edu.collin.cosc2436.ThanhTran.cashRegisterUpdated;
 import java.util.HashMap;
+import java.util.Map;
+
 import edu.collin.cosc2436.ThanhTran.SupermarketPromotions.RetailItem;
 /**
 This class represents a pricing category that has a taxable status for the selected category and a collection of item prices.
 */
 public class PricingCategory {
 	private final boolean taxable;
-	private final HashMap<RetailItem,Double> itemPrices;
+	private final Map<RetailItem,Double> itemPrices;
 	
 	/**
 	 * Constructor for creating a new pricing category with a given taxable status and an empty collection of item prices.

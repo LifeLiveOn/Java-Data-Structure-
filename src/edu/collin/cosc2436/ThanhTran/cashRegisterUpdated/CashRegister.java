@@ -2,6 +2,7 @@ package edu.collin.cosc2436.ThanhTran.cashRegisterUpdated;
 import java.text.DecimalFormat;
 import java.util.ArrayList; // import the ArrayList class
 import java.util.Iterator;
+import java.util.List;
 
 import edu.collin.cosc2436.ThanhTran.SupermarketPromotions.ActivePromotions;
 import edu.collin.cosc2436.ThanhTran.SupermarketPromotions.Promotion;
@@ -20,7 +21,7 @@ public class CashRegister {
     /**
      * A list of RetailItem objects representing items that have been purchased.
      */
-    private ArrayList<RetailItem> purchasedItems;
+    private List<RetailItem> purchasedItems;
     
     static ActivePromotions promotions = new ActivePromotions();
  
@@ -57,7 +58,7 @@ public class CashRegister {
      * @param items An ArrayList of RetailItem objects representing the items to be scanned.
      * @param <T> A type parameter for the RetailItem class and its subclasses.
      */
-    public <T extends RetailItem> void scanItems(ArrayList<T> items) {
+    public <T extends RetailItem> void scanItems(List<T> items) {
         for (T item : items) {
             this.purchasedItems.add(item);
         }

@@ -5,8 +5,8 @@
 package edu.collin.cosc2436.ThanhTran.SupermarketPromotions;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Promotion {
@@ -86,7 +86,7 @@ public class Promotion {
      * Adds multiple RetailItems to the promotion
      * @param items an ArrayList of RetailItems to add to the promotion
      */
-    public <T extends RetailItem> void addAddItems(ArrayList<T> items ) {
+    public <T extends RetailItem> void addAddItems(List<T> items ) {
         for(T item : items) {
             addItem(item);
         }

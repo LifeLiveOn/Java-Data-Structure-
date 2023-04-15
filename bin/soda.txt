@@ -1,0 +1,13 @@
+Coca-Cola
+Diet Coke
+Sprite
+Diet Sprite
+Dr. Pepper
+Diet Dr. Pepper
+Pepsi
+Diet Pepsi
+Mountain Dew
+Diet Mountain Dew
+Coke Zero
+Fanta
+Red Bull
